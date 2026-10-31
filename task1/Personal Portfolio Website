@@ -1,1 +1,143 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Personal Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: lightgray;
+            text-align: center;
+        }
+
+        header {
+            background-color: navy;
+            color: white;
+            padding: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            transition: 0.5s;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        section {
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            animation: fade 2s;
+        }
+
+        h2 {
+            color: navy;
+        }
+
+        .profile {
+            background-color: lightblue;
+            padding: 40px;
+        }
+
+        footer {
+            background-color: navy;
+            color: white;
+            padding: 15px;
+        }
+
+        @keyframes fade {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Portfolio</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html">Education</a>
+            <a href="index.html">Skills</a>
+            <a href="index.html">Projects</a>
+            <a href="index.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="profile">
+        <h2>Welcome to My Portfolio</h2>
+        <h3>My Name is Rohith</h3>
+        <p>I am a student and beginner web developer.</p>
+    </section>
+
+    <section>
+        <h2>Educational Qualifications</h2>
+        <p>B.Tech - NRI University</p>
+        <p>Intermediate - MPC</p>
+        <p>SSC - School Education</p>
+    </section>
+
+    <section>
+        <h2>Technical Skills</h2>
+        <p>HTML, CSS, Python, C Programming</p>
+    </section>
+
+    <section>
+        <h2>Hobbies</h2>
+        <p>Listening to Music</p>
+        <p>Playing Cricket</p>
+        <p>Learning New Things</p>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <p>Personal Portfolio Website</p>
+        <p>Student Management System</p>
+    </section>
+
+    <section>
+        <h2>Achievements</h2>
+        <p>Participated in College Activities</p>
+        <p>Completed Technical Courses</p>
+    </section>
+
+    <section>
+        <h2>Resume</h2>
+        <p>My resume contains my education and skills.</p>
+        <a href="resume.pdf">Download Resume</a>
+    </section>
+
+    <section>
+        <h2>Contact Information</h2>
+        <p>Email: rohith@gmail.com</p>
+        <p>Phone: 9876543210</p>
+    </section>
+
+    <footer>
+        <p>Copyright 2026 My Personal Portfolio</p>
+    </footer>
+
+</body>
+</html>
