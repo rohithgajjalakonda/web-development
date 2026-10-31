@@ -1,1 +1,191 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie World</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #eeeeee;
+            text-align: center;
+        }
+
+        header {
+            background-color: #111111;
+            color: white;
+            padding: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        nav a:hover {
+            color: orange;
+        }
+
+        .banner {
+            background-color: #333333;
+            color: white;
+            padding: 30px;
+        }
+
+        h2 {
+            color: darkred;
+        }
+
+        .movies {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: white;
+            width: 230px;
+            margin: 15px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+            transition: 0.5s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100%;
+            height: 280px;
+            border-radius: 8px;
+        }
+
+        .rating {
+            color: orange;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            padding: 15px;
+        }
+
+        @media(max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px;
+            }
+
+            .card {
+                width: 85%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🎬 Movie World</h1>
+    <p>Explore Your Favourite Movies</p>
+
+    <nav>
+        <a href="movie.html">Home</a>
+        <a href="movie.html">Movies</a>
+        <a href="movie.html">Genres</a>
+        <a href="movie.html">Reviews</a>
+        <a href="movie.html">Contact</a>
+    </nav>
+</header>
+
+<div class="banner">
+    <h2 style="color:white;">Welcome to Movie World</h2>
+    <p>Discover Movies, Reviews and Ratings</p>
+</div>
+
+<section>
+    <h2>Popular Movies</h2>
+
+    <div class="movies">
+
+        <div class="card">
+            <img src="https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg" alt="Spider-Man No Way Home">
+            <h3>Spider-Man</h3>
+            <p>Genre: Action, Adventure</p>
+            <p>Release: 2021</p>
+            <p>Cast: Tom Holland, Zendaya</p>
+            <p>Rating: <span class="rating">⭐ 8.2/10</span></p>
+            <p>Synopsis: Spider-Man faces new challenges and powerful enemies.</p>
+            <p>Review: Amazing action and entertainment!</p>
+        </div>
+
+        <div class="card">
+            <img src="https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg" alt="The Shawshank Redemption">
+            <h3>Shawshank Redemption</h3>
+            <p>Genre: Drama</p>
+            <p>Release: 1994</p>
+            <p>Cast: Tim Robbins, Morgan Freeman</p>
+            <p>Rating: <span class="rating">⭐ 9.3/10</span></p>
+            <p>Synopsis: Two prisoners develop a strong friendship in prison.</p>
+            <p>Review: A wonderful and inspiring movie!</p>
+        </div>
+
+        <div class="card">
+            <img src="https://image.tmdb.org/t/p/w500/8VG8fDNiy50H4FedGwdSVUPoaJe.jpg" alt="Interstellar">
+            <h3>Interstellar</h3>
+            <p>Genre: Sci-Fi, Adventure</p>
+            <p>Release: 2014</p>
+            <p>Cast: Matthew McConaughey, Anne Hathaway</p>
+            <p>Rating: <span class="rating">⭐ 8.7/10</span></p>
+            <p>Synopsis: A team travels through space to find a new home for humanity.</p>
+            <p>Review: Excellent visuals and storytelling!</p>
+        </div>
+
+        <div class="card">
+            <img src="https://image.tmdb.org/t/p/w500/8x9iKH8kWA0zdkgNdpAew7OstYe.jpg" alt="Avengers">
+            <h3>Avengers</h3>
+            <p>Genre: Action, Fantasy</p>
+            <p>Release: 2012</p>
+            <p>Cast: Robert Downey Jr., Chris Evans</p>
+            <p>Rating: <span class="rating">⭐ 8.0/10</span></p>
+            <p>Synopsis: Superheroes unite to protect the world from danger.</p>
+            <p>Review: Fantastic superhero entertainment!</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>Movie Genres</h2>
+    <p>Action | Comedy | Romance | Thriller | Horror | Drama | Sci-Fi</p>
+</section>
+
+<section>
+    <h2>Latest Reviews</h2>
+    <p>⭐⭐⭐⭐⭐ Great movies with amazing performances!</p>
+    <p>⭐⭐⭐⭐ Excellent story and direction.</p>
+    <p>⭐⭐⭐⭐⭐ Highly recommended for movie lovers.</p>
+</section>
+
+<section>
+    <h2>About Us</h2>
+    <p>Movie World provides movie information, cast details, reviews and ratings.</p>
+</section>
+
+<footer>
+    <p>Copyright 2026 Movie World</p>
+    <p>Enjoy Watching Movies!</p>
+</footer>
+
+</body>
+</html>
+
